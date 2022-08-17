@@ -55,9 +55,16 @@ const spaceBattle = () => {
             
         }
 
-        
+        if (i === alienFleet.length - 1 && survivalShip.hull > 0) {
+            console.log("You live to survive another day, soldier. Return back home!");
+        }
+        else {
+            console.log("The aliens have destroyed our last defense. It's over!");
+        }
     }
 }
+
+   
     
 
 
