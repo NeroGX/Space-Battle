@@ -87,7 +87,7 @@ for (let i = 0; i < 6; i++) {  // Populate the alienFleet array with user input
 // alienFleet.push(new alienShip('Comic Sans')); //tester code: to see if ship is passed into object correctly
 // alienFleet.push(new alienShip('Helvetica')); // tester code: to test multiple alien ships
 // console.log(survivalShip); // tester code: Making sure the survivalShip object works
-console.log(alienFleet);  // tester code: Making sure the alienFleet array is populating correctly
-console.log(survivalShip.hull);
-console.log(alienFleet[0].hull);
+// console.log(alienFleet);  // tester code: Making sure the alienFleet array is populating correctly
+// console.log(survivalShip.hull);
+// console.log(alienFleet[0].hull);
 spaceBattle();
